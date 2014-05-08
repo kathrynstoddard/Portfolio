@@ -1,0 +1,71 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Oswald', sans-serif;
+}
+
+.nav a {
+	color: #333;
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.nav li {
+	display: inline;
+}
+
+.jumbotron {
+	margin-top: 50px;
+	border-top: 5px solid #E74C3C;
+	background: url(../images/bricks.jpg) no-repeat;
+	color: #FFF;
+	height: 375px;
+}
+
+.contact a {
+	background-color: #E74C3C;
+	padding: 10px 20px;
+	color: #fff;
+}
+
+.skills {
+	margin: 50px 0;
+}
+
+.skills h3 {
+	color: #00b6ad;
+	text-align: center;
+}
+
+span.glyphicon {
+	font-size: 3em;
+	margin: 0 auto;
+}
+
+.process {
+	margin: 50px 0;
+}
+
+.process h3 {
+	color: #00b6ad;
+}
+
+#footer {
+	background-color: #262732;
+	height: 100px;
+}
+
+.footer {
+	
+}
+
+.footer a {
+	color: #fff;
+}
+
+.footer li {
+	display: inline;
+}
