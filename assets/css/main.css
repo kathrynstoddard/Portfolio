@@ -6,6 +6,10 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Oswald', sans-serif;
 }
 
+.nav {
+	padding-top: 10px;
+}
+
 .nav a {
 	color: #333;
 	font-size: 11px;
@@ -17,22 +21,59 @@ h1, h2, h3, h4, h5, h6 {
 	display: inline;
 }
 
+.right-nav {
+	padding-top: 10px;
+}
+
+.social-media {
+	padding-left: 15px;
+}
+
 .jumbotron {
-	margin-top: 50px;
+	margin-top: 60px;
 	border-top: 5px solid #E74C3C;
 	background: url(../images/bricks.jpg) no-repeat;
 	color: #FFF;
-	height: 375px;
+	height: 600px;
+	background-size: cover;
+	margin-bottom: 0px;
+}
+
+.jumbotron h1 {
+	font-size: 6em;
+}
+
+.jumbotron h2 {
+	font-size: 3.5em;
+}
+
+.jumbotron h3 {
+	font-size: 2.5em;
+	font-family: 'Lato', sans-serif;
+	padding-bottom: 15px;
 }
 
 .contact a {
 	background-color: #E74C3C;
-	padding: 10px 20px;
+	padding: 15px 30px;
 	color: #fff;
+	font-size: 1.5em;
+}
+
+#skills {
+	background-color: #F8F8F8;
+	margin: 0;
 }
 
 .skills {
-	margin: 50px 0;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	background-color: #ecf0f1;
+}
+
+.skills p {
+	font-size: 1.25em;
+	text-align: center;
 }
 
 .skills h3 {
@@ -40,13 +81,29 @@ h1, h2, h3, h4, h5, h6 {
 	text-align: center;
 }
 
-span.glyphicon {
-	font-size: 3em;
+.skills span {
 	margin: 0 auto;
+}
+
+.glyphicon {
+	display: block;
+	margin: 0 auto;
+}
+
+span.glyphicon {
+	font-size: 5em;
+	margin: 0 auto;
+	text-align: center;
 }
 
 .process {
 	margin: 50px 0;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.process p {
+	font-size: 1.15em;
 }
 
 .process h3 {
@@ -55,11 +112,9 @@ span.glyphicon {
 
 #footer {
 	background-color: #262732;
-	height: 100px;
-}
-
-.footer {
-	
+	padding-top: 75px;
+	padding-bottom: 75px;
+	font-size: 1.5em;
 }
 
 .footer a {
@@ -68,4 +123,58 @@ span.glyphicon {
 
 .footer li {
 	display: inline;
+	padding-right: 10px;
+}
+
+/*Media Queries*/
+
+/*Medium Screens*/
+@media (max-width: 767px) {
+   body {
+      font-size: .99em;
+    }
+
+    .jumbotron {
+    	margin-top: 60px;
+    	height: 400px;
+    }
+
+    .skills, .process, .footer {
+    	padding-top: 25px;
+    	padding-bottom: 25px;
+    }
+
+    .process img {
+    	margin: 0 auto;
+    }
+
+    .footer img {
+    	width: 3%;
+    }
+}
+
+/*Small Screens*/
+@media (max-width: 480px) {
+   body {
+      font-size: .90em;
+    }
+
+    .jumbotron {
+    	margin-top: 60px;
+    	height: 400px;
+    }
+
+    .skills, .process, .footer {
+    	padding-top: 25px;
+    	padding-bottom: 25px;
+    }
+
+    .process img {
+    	width: 95%;
+    	margin: 0 auto;
+    }
+
+    .footer img {
+    	width: 4%;
+    }
 }
