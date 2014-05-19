@@ -110,6 +110,15 @@ span.glyphicon {
 	color: #00b6ad;
 }
 
+input {
+	margin-bottom: 10px;
+}
+
+.contact button {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
 #footer {
 	background-color: #262732;
 	padding-top: 75px;
@@ -125,6 +134,7 @@ span.glyphicon {
 	display: inline;
 	padding-right: 10px;
 }
+
 
 /*Media Queries*/
 
