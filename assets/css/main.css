@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 	border-top: 5px solid #E74C3C;
 	background: url(../images/bricks.jpg) no-repeat;
 	color: #FFF;
-	height: 600px;
+	/*height: 600px;*/
 	background-size: cover;
 	margin-bottom: 0px;
 }
@@ -90,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0 auto;
 }
 
-span.glyphicon {
+.skills span.glyphicon {
 	font-size: 5em;
 	margin: 0 auto;
 	text-align: center;
@@ -118,9 +118,25 @@ input {
 	margin-bottom: 10px;
 }
 
+.redorange {
+	color: #E74C3C;;
+}
+
+.teal {
+	color: #00b6ad;;
+}
+
+.contact {
+	margin: 25px 0;
+}
+
 .contact button {
 	margin-top: 10px;
 	margin-bottom: 10px;
+	background-color: #E74C3C;
+	padding: 10px 20px;
+	color: #fff;
+	font-size: 1.25em;
 }
 
 .contact li {
@@ -153,10 +169,10 @@ input {
 
 /*Medium Screens*/
 @media (max-width: 767px) {
-   body {
-      font-size: .99em;
-    }
-
+	body {
+		font-size: 1em;
+	}
+	
     .jumbotron {
     	margin-top: 60px;
     	height: 400px;
@@ -178,10 +194,6 @@ input {
 
 /*Small Screens*/
 @media (max-width: 480px) {
-   body {
-      font-size: .90em;
-    }
-
     .jumbotron {
     	margin-top: 60px;
     	height: 400px;
