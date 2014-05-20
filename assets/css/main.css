@@ -103,11 +103,15 @@ span.glyphicon {
 }
 
 .process p {
-	font-size: 1.15em;
+	font-size: 1.25em;
 }
 
 .process h3 {
 	color: #00b6ad;
+}
+
+.process img {
+	width: 95%;
 }
 
 input {
