@@ -66,8 +66,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .skills {
-	padding-top: 200px;
-	padding-bottom: 200px;
+	padding-top: 100px;
+	padding-bottom: 100px;
 	background-color: #ecf0f1;
 }
 
@@ -148,6 +148,24 @@ input {
 	width: 7%;
 }
 
+.work {
+	padding-top: 25px;
+	padding-bottom: 50px;
+}
+
+#webapps h4 {
+	padding-top: 25px;
+}
+
+.breadcrumb {
+	background-color: #fff;
+	padding-left: 0px;
+}
+
+.breadcrumb a {
+	color: #000;
+}
+
 #footer {
 	background-color: #262732;
 	padding-top: 75px;
@@ -172,7 +190,7 @@ input {
 	body {
 		font-size: 1em;
 	}
-	
+
     .jumbotron {
     	margin-top: 60px;
     	height: 400px;
