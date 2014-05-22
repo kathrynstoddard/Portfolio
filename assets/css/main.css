@@ -182,6 +182,14 @@ input {
 	padding-right: 10px;
 }
 
+.hide {
+	display: none;
+}
+
+.show {
+	display: initial;
+}
+
 
 /*Media Queries*/
 
