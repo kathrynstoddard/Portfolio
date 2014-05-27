@@ -190,6 +190,45 @@ input {
 	display: initial;
 }
 
+.grid-block, .slide: {
+	width: 300px;
+	height: 300px;
+	margin: 10px auto;
+}
+
+.caption {
+	display: none;
+	position: absolute;
+	bottom: 0;
+	left: 15px;
+	padding-top: 75px;
+	text-align: center;
+	width: 300px;
+	height: 300px;
+	background: url(../images/trans-black-50.png);
+}
+
+.caption h4, .caption p {
+	color: #fff;
+}
+
+
+.caption p {
+	line-height: 1.5em;
+	font-weight: bold;
+}
+
+.caption a.learn-more {
+	padding: 5px 10px;
+	background: #E74C3C;
+	color: #fff;
+	text-decoration: none;
+}
+
+.caption a.learn-more: hover {
+	background: #fff;
+	color: #E74C3C;
+}
 
 /*Media Queries*/
 

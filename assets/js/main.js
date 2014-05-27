@@ -3,19 +3,28 @@ $(function (){
 	$('#websites').on('click', function() {
 		$('.websites').removeClass('hide');
 		$('.webapps').addClass('hide');
-		console.log('this is at least running');
 	});
 
 	$('#webapps').on('click', function() {
 		$('.websites').addClass('hide');
 		$('.webapps').removeClass('hide');
-		console.log('this is at least running');
 	});
 
 	$('#all').on('click', function() {
 		$('.websites').removeClass('hide');
 		$('.webapps').removeClass('hide');
-		console.log('this is at least running');
 	});
+
+
+	$('.grid-block').hover(
+		function () {
+			$(this).find('.caption').slideDown(400);
+		},
+		function () {
+			$(this).find('.caption').slideUp(400);
+		}
+	);
+
+	
 
 });
