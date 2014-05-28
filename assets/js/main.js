@@ -18,10 +18,10 @@ $(function (){
 
 	$('.grid-block').hover(
 		function () {
-			$(this).find('.caption').slideDown(400);
+			$(this).find('.caption').slideDown(200);
 		},
 		function () {
-			$(this).find('.caption').slideUp(400);
+			$(this).find('.caption').slideUp(200);
 		}
 	);
 
