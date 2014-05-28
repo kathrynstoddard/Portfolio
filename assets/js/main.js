@@ -15,7 +15,6 @@ $(function (){
 		$('.webapps').removeClass('hide');
 	});
 
-
 	$('.grid-block').hover(
 		function () {
 			$(this).find('.caption').slideDown(200);
@@ -24,7 +23,5 @@ $(function (){
 			$(this).find('.caption').slideUp(200);
 		}
 	);
-
-	
 
 });

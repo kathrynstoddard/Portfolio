@@ -58,6 +58,13 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 15px 30px;
 	color: #fff;
 	font-size: 1.5em;
+	text-decoration: none;
+}
+.contactme a:hover {
+	background-color: #fff;
+	padding: 15px 30px;
+	color: #E74C3C;
+	font-size: 1.5em;
 }
 
 #skills {
@@ -137,6 +144,11 @@ input {
 	padding: 10px 20px;
 	color: #fff;
 	font-size: 1.25em;
+}
+
+.contact button:hover {
+	background-color: #fff;
+	color: #E74C3C;
 }
 
 .contact li {
@@ -232,9 +244,13 @@ input {
 	text-decoration: none;
 }
 
-.caption a.learn-more: hover {
+.caption a.learn-more:hover {
 	background: #fff;
 	color: #E74C3C;
+}
+
+.clear {
+	clear: both;
 }
 
 /*Media Queries*/
@@ -243,6 +259,7 @@ input {
 @media (max-width: 999px) {
 	.grid-block:nth-child(3) {
 		float: none;
+		clear: both;
 	}
 }
 
@@ -273,8 +290,8 @@ input {
 @media (max-width: 685px) {
 	.grid-block {
 		float: none;
-
-
+	}
+}
 /*Small Screens*/
 @media (max-width: 480px) {
     .jumbotron {
@@ -295,4 +312,10 @@ input {
     .footer img {
     	width: 4%;
     }
+}
+
+@media (max-width: 460px) {
+	.work {
+		margin-top: 100px;
+	}
 }
