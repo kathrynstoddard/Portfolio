@@ -31,7 +31,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .jumbotron {
 	margin-top: 60px;
-	border-top: 5px solid #E74C3C;
 	background: url(../images/bricks.jpg) no-repeat;
 	color: #FFF;
 	/*height: 600px;*/
@@ -325,6 +324,6 @@ input {
 		font-size: .95em;
 	}
 	.jumbotron {
-		margin-top: 80px;
+		margin-top: 90px;
 	}
 }
