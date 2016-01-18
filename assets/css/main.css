@@ -31,9 +31,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .jumbotron {
 	margin-top: 60px;
-	background: url(../images/bricks.jpg) no-repeat;
+	background: url(../images/skyandstars.jpeg) no-repeat center bottom;
 	color: #FFF;
-	/*height: 600px;*/
+	height: 600px;
 	background-size: cover;
 	margin-bottom: 0px;
 }
