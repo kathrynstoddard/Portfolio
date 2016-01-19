@@ -7,7 +7,7 @@
 // Gets posted data from the HTML form fields and creates local variables. The items with the ' marks around them are the name values from the fields in the HTML form example above. Note, the first three variables are required for all email messages (as described above).
 
 $Name = trim(stripslashes($_POST['name']));
-$EmailFrom = trim(stripslashes($_POST['email'])); 
+$EmailFrom = trim(stripslashes($_POST['email']));
 $EmailTo = "kathryn.stoddard@gmail.com";
 $Subject = "Portfolio Contact Message - Kathryn Stoddard";
 $Message = trim(stripslashes($_POST['message']));
@@ -45,10 +45,10 @@ $success = mail($EmailTo, $Subject, $Body, "From: <$EmailFrom>");
 
 
 if ($success){
-  print "<meta http-equiv=\"refresh\" content=\"0;URL=ok.html\">";
+  print "<meta http-equiv=\"refresh\" content=\"0;URL=ok.php\">";
 }
 else{
-  print "<meta http-equiv=\"refresh\" content=\"0;URL=error.html\">";
+  print "<meta http-equiv=\"refresh\" content=\"0;URL=error.php\">";
 }
 
 ?>

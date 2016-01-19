@@ -6,10 +6,13 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Oswald', sans-serif;
 }
 
+.logo img {
+	width: 40px;
+}
+
 .nav {
 	padding-top: 10px;
 }
-
 .nav a {
 	color: #333;
 	font-size: 11px;
@@ -38,6 +41,10 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 0px;
 }
 
+.jumbotron.contact {
+	height: 350px;
+}
+
 .jumbotron h1 {
 	font-size: 6em;
 }
@@ -53,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contactme a {
-	background-color: #E74C3C;
+	background-color: #24C3C6;
 	padding: 15px 30px;
 	color: #fff;
 	font-size: 1.5em;
@@ -62,7 +69,7 @@ h1, h2, h3, h4, h5, h6 {
 .contactme a:hover {
 	background-color: #fff;
 	padding: 15px 30px;
-	color: #E74C3C;
+	color: #192324;
 	font-size: 1.5em;
 }
 
@@ -83,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .skills h3 {
-	color: #00b6ad;
+	color: #24C3C6;
 	text-align: center;
 }
 
@@ -113,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .process h3 {
-	color: #00b6ad;
+	color: #24C3C6;
 }
 
 .process img {
@@ -129,7 +136,7 @@ input {
 }
 
 .teal {
-	color: #00b6ad;;
+	color: #24C3C6;;
 }
 
 .contact {
@@ -139,7 +146,7 @@ input {
 .contact button {
 	margin-top: 10px;
 	margin-bottom: 10px;
-	background-color: #E74C3C;
+	background-color: #24C3C6;
 	padding: 10px 20px;
 	color: #fff;
 	font-size: 1.25em;
@@ -147,7 +154,7 @@ input {
 
 .contact button:hover {
 	background-color: #fff;
-	color: #E74C3C;
+	color: #24C3C6;
 }
 
 .contact li {
