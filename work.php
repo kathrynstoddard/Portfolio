@@ -9,12 +9,9 @@
           <li><a href="#" id="webapps">Web Apps</a></li>
         </ul>
 
-        <div class="container">
           <h4 class="teal websites">Websites</h4>
-        </div>
-          <div class="grid-block-container">
-            <div class="websites">
-							<div class="grid-block slide">
+            <div class="websites row">
+							<div class="col-md-4 slide">
                 <img src="assets/images/axiomequine.jpg" alt="Axiom Equine screenshot">
                   <div class="caption">
                       <h4>Axiom Equine</h4>
@@ -22,7 +19,7 @@
                       <p><a href="http://www.axiomequine.com" target="_blank" class="learn-more">Visit Site</a></p>
                   </div>
               </div>
-                <div class="grid-block slide">
+                <div class="col-md-4 slide">
                   <img src="assets/images/brassysassythumb.png" alt="Brassy and Sassy Screenshot">
                   <div class="caption">
                       <h4>Brassy &amp; Sassy</h4>
@@ -30,7 +27,7 @@
                       <p><a href="http://www.kathrynstoddard.com/portfolio/brassysassy/index.html" target="_blank" class="learn-more">Visit Site</a></p>
                   </div>
               </div>
-              <div class="grid-block slide">
+              <div class="col-md-4 slide">
                 <img src="assets/images/blueprintthumb.png" alt="Blueprint for Balance screenshot">
                 <div class="caption">
                       <h4>Blueprint for Balance</h4>
@@ -40,15 +37,10 @@
               </div>
             </div><!--End websites div-->
 
-          </div>
-
-          <div class="container pull-left">
-            <h4 class="teal webapps">Web Apps</h4>
-          </div>
+          <h4 class="teal webapps">Web Apps</h4>
           <div class="clearfix"></div>
-          <div class="grid-block-container">
-            <div class="webapps">
-              <div class="grid-block slide">
+            <div class="webapps row">
+              <div class="col-md-4 slide">
                 <img src="assets/images/breezeappthumb.png">
                 <div class="caption">
                       <h4>Breeze</h4>
@@ -57,8 +49,6 @@
                   </div>
               </div>
             </div><!--end webapps div-->
-
-          </div>
 
       </div><!--end container div-->
 

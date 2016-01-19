@@ -203,7 +203,14 @@ input {
 	padding-top: 25px;
 	padding-bottom: 50px;
 }
+.work .col-md-4 {
+	margin-bottom: 20px;
+}
+.col-md-4.slide img {
+    margin: 0 auto;
+    display: block;
 
+}
 #webapps h4 {
 	padding-top: 25px;
 }
@@ -241,17 +248,17 @@ input {
 	display: initial;
 }
 
-.grid-block-container {
+/** .grid-block-container {
 	width: 970px;
 	margin: 0 auto;
-}
-.grid-block {
+} **/
+/*.grid-block {
 	position: relative;
 	float: left;
 	width: 300px;
 	height: 300px;
 	margin: 0 0 30px 20px;
-}
+}*/
 
 .caption {
 	display: none;
@@ -295,10 +302,10 @@ input {
 
 /*Medium Screens*/
 @media (max-width: 999px) {
-	.grid-block:nth-child(3) {
+	/*.grid-block:nth-child(3) {
 		float: none;
 		clear: both;
-	}
+	}*/
 }
 
 @media (max-width: 767px) {
@@ -326,9 +333,9 @@ input {
 }
 
 @media (max-width: 685px) {
-	.grid-block {
+	/*.grid-block {
 		float: none;
-	}
+	}*/
 }
 /*Small Screens*/
 @media (max-width: 525px) {
