@@ -1,3 +1,4 @@
+// JS for Work examples
 $(function (){
 
 	$('#websites').on('click', function() {
@@ -24,4 +25,12 @@ $(function (){
 		}
 	);
 
+});
+
+// JS for jumbotron
+$(function() {
+	var pathname = window.location.pathname;
+	if(pathname == '/contact.php') {
+		$('.jumbotron').addClass('contact-jumbotron');
+	}
 });
