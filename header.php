@@ -25,6 +25,10 @@
     <!-- Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700italic,400italic,700,900,900italic' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Vast+Shadow' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,500,700,500italic,700italic' rel='stylesheet' type='text/css'>
 
     <!-- jQuery  -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>

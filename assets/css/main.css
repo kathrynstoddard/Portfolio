@@ -1,23 +1,35 @@
 body {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Oswald', sans-serif;
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 900;
+}
+
+h2, h3, h4, h5, h6 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
 }
 
 .logo img {
 	width: 40px;
 }
-
+.navbar-default {
+	background-color: #fff;
+}
 .nav {
 	padding-top: 10px;
 }
 .nav a {
-	color: #333;
-	font-size: 11px;
-	font-weight: bold;
+	color: #24C3C6;
+	font-size: 16px;
+	font-weight: 500;
 	text-transform: uppercase;
+}
+.nav a:hover {
+	color: #192324;
+	text-decoration: none;
 }
 
 .nav li {
@@ -36,13 +48,13 @@ h1, h2, h3, h4, h5, h6 {
 	margin-top: 60px;
 	background: url(../images/skyandstars.jpeg) no-repeat center bottom;
 	color: #FFF;
-	height: 600px;
+	height: 650px;
 	background-size: cover;
 	margin-bottom: 0px;
 }
 
 .jumbotron.contact-jumbotron {
-	height: 350px;
+	height: 370px;
 }
 
 .jumbotron.contact-jumbotron .contactme {
@@ -50,30 +62,46 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .jumbotron h1 {
-	font-size: 6em;
-}
-
-.jumbotron h2 {
 	font-size: 3.5em;
+	margin-top: 10px;
 }
 
 .jumbotron h3 {
+	font-size: 2.75em;
+	padding-bottom: 40px;
+	margin-top: 10px;
+	font-style: italic;
+}
+
+.tagline {
+		border-bottom: solid 2px #fff;
+		width: 308px;
+}
+
+.tagline h2 {
+	color: #24C3C6;
 	font-size: 2.5em;
-	font-family: 'Lato', sans-serif;
-	padding-bottom: 15px;
+	border-bottom: solid 2px #fff;
+	width: 30%;
+}
+
+.contactme {
+	display: inline;
+	margin-right: 15px;
 }
 
 .contactme a {
-	background-color: #24C3C6;
-	padding: 15px 30px;
+	//background-color: #fff;
+	padding: 10px 20px;
 	color: #fff;
+	font-weight: 500px;
 	font-size: 1.5em;
 	text-decoration: none;
+	border: solid #fff 2px;
 }
 .contactme a:hover {
 	background-color: #fff;
-	padding: 15px 30px;
-	color: #192324;
+	color: #24C3C6;
 	font-size: 1.5em;
 }
 
@@ -303,9 +331,14 @@ input {
 	}
 }
 /*Small Screens*/
+@media (max-width: 525px) {
+	.jumbotron {
+		margin-top: 120px;
+	}
+}
+
 @media (max-width: 480px) {
     .jumbotron {
-    	margin-top: 60px;
     	height: 400px;
     }
 
@@ -331,10 +364,7 @@ input {
 }
 
 @media (max-width: 460px) {
-	body {
-		font-size: .95em;
-	}
-	.jumbotron {
-		margin-top: 90px;
+	.nav a {
+		font-size: 12px;
 	}
 }
