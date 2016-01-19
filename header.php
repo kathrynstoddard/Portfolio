@@ -52,7 +52,7 @@
             <li>&nbsp;//&nbsp;</li>
           	<li><a href="contact.php">Contact</a></li>
             <li>&nbsp;//&nbsp;</li>
-          	<li><a href="resume.pdf">Resume</a></li>
+          	<li><a href="resume.pdf" target="_blank">Resume</a></li>
           	<li class="social-media"><a href="https://twitter.com/kathrynrefined" target="_blank"><img src="assets/images/social-twitter.png"></a></li>
           	<li><a href="https://github.com/kathrynstoddard" target="_blank"><img src="assets/images/social-github.png"></a></li>
           	<li><a href="http://www.linkedin.com/in/kathrynpdx/" target="_blank"><img src="assets/images/social-linkedin.png"></a></li>
