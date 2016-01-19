@@ -9,13 +9,13 @@
             <form class="form" id="contact" name="contact" method="post" action="contact_process.php">
               <div class="form-group">
                 <div class="control-group">
-                  <input type="text" class="col-md-10" id="name" name="name" placeholder="Your Name">
+                  <input type="text" class="col-md-10 form-control" id="name" name="name" placeholder="Your Name">
                 </div>
                 <div class="control-group">
-                  <input type="text" class="col-md-10" id="email" name="email" placeholder="Your Email">
+                  <input type="text" class="col-md-10 form-control" id="email" name="email" placeholder="Your Email">
                 </div>
                 <div class="control-group">
-                  <textarea name="message" id="message" class="col-md-10" rows="4" cols="78" placeholder="Enter your message here"></textarea>
+                  <textarea name="message" id="message" class="col-md-10 form-control" rows="4" placeholder="Enter your message here"></textarea>
                 </div>
               </div>
               <button type="submit" value="Submit" class="btn btn-default">Submit</button>
