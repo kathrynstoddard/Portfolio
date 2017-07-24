@@ -3,25 +3,25 @@ $(function (){
 
 	$('#websites').on('click', function() {
 		$('.websites').removeClass('hide');
-		$('.webapps').addClass('hide');
+		$('.coursera').addClass('hide');
 	});
 
-	$('#webapps').on('click', function() {
+	$('#coursera').on('click', function() {
 		$('.websites').addClass('hide');
-		$('.webapps').removeClass('hide');
+		$('.coursera').removeClass('hide');
 	});
 
 	$('#all').on('click', function() {
 		$('.websites').removeClass('hide');
-		$('.webapps').removeClass('hide');
+		$('.coursera').removeClass('hide');
 	});
 
 	$('.slide').hover(
 		function () {
-			$(this).find('.caption').slideDown(200);
+			$(this).find('.caption_work').slideDown(200);
 		},
 		function () {
-			$(this).find('.caption').slideUp(200);
+			$(this).find('.caption_work').slideUp(200);
 		}
 	);
 
@@ -30,7 +30,7 @@ $(function (){
 // JS for jumbotron
 $(function() {
 	var pathname = window.location.pathname;
-	if(pathname == '/contact.php') {
+	if(pathname != '/index.php') {
 		$('.jumbotron').addClass('contact-jumbotron');
 	}
 });

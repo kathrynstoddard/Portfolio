@@ -1,10 +1,11 @@
 <?php include("header.php"); ?>
-
+<?php include("jumbotron.php"); ?>
     <div class="contact">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-          <h3 class="redorange">Form Submitted</h3>
+          <h3 class="redorange">Thank you!</h3>
+          <p>Your message has been successfully sent. I will be in contact soon!
 
           </div>
 
